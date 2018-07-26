@@ -1,0 +1,23 @@
+subSeason=function(NBA){
+  # 生成赛季子集
+  nba1996=subset(NBA,NBA$赛季=="1996-1997")
+  nba1997=subset(NBA,NBA$赛季=="1997-1998")
+  nba1998=subset(NBA,NBA$赛季=="1998-1999")
+  nba1999=subset(NBA,NBA$赛季=="1999-2000")
+  nba2000=subset(NBA,NBA$赛季=="2000-2001")
+  nba2001=subset(NBA,NBA$赛季=="2001-2002")
+  nba2002=subset(NBA,NBA$赛季=="2002-2003")
+  nba2003=subset(NBA,NBA$赛季=="2003-2004")
+  nba2005=subset(NBA,NBA$赛季=="2005-2006")
+  nba2006=subset(NBA,NBA$赛季=="2006-2007")
+  nba2007=subset(NBA,NBA$赛季=="2007-2008")
+  nba2008=subset(NBA,NBA$赛季=="2008-2009")
+  nba2009=subset(NBA,NBA$赛季=="2009-2010")
+  nba2010=subset(NBA,NBA$赛季=="2010-2011")
+  nba2011=subset(NBA,NBA$赛季=="2011-2012")
+  nba2012=subset(NBA,NBA$赛季=="2012-2013")
+  nba2013=subset(NBA,NBA$赛季=="2013-2014")
+  nba2014=subset(NBA,NBA$赛季=="2014-2015")
+  nba2015=subset(NBA,NBA$赛季=="2015-2016")
+  nba2016=subset(NBA,NBA$赛季=="2016-2017")
+}
